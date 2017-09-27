@@ -1,6 +1,6 @@
 {
 	"name": "array-to-string-with-indentation",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Converts a multidimensional array to a string with indentation for each array level",
 	"main": "array-to-string-with-indentation.js",
 	"files": [
