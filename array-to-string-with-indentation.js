@@ -1,10 +1,10 @@
 "use strict";
 
-var getProcessMessageArrayWithLevel = require( "./lib/getProcessMessageArrayWithLevel" );
+var getMessageProcessor = require( "./lib/getMessageProcessor" );
 
 module.exports = function ( message ) {
 	return message instanceof Array ?
-		message.map( getProcessMessageArrayWithLevel( 1 ) )
+		message.map( getMessageProcessor( 1 ) )
 		.join( "\n" ) :
 		message;
 };
