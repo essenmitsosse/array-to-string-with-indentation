@@ -1,20 +1,20 @@
 {
-	"name": "***MODULENAME***",
+	"name": "array-to-string-with-indentation",
 	"version": "0.0.0",
-	"description": "***DESCRIPTION***",
-	"main": "***MODULENAME***.js",
+	"description": "Converts a multidimensional array to a string with indentation for each array level",
+	"main": "array-to-string-with-indentation.js",
 	"files": [
-		"***MODULENAME***.js",
+		"array-to-string-with-indentation.js",
 		"/lib"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/essenmitsosse/***MODULENAME***"
+		"url": "git+https://github.com/essenmitsosse/array-to-string-with-indentation"
 	},
 	"bugs": {
-		"url": "https://github.com/essenmitsosse/***MODULENAME***/issues"
+		"url": "https://github.com/essenmitsosse/array-to-string-with-indentation/issues"
 	},
-	"homepage": "https://github.com/essenmitsosse/***MODULENAME***#readme",
+	"homepage": "https://github.com/essenmitsosse/array-to-string-with-indentation#readme",
 	"scripts": {
 		"test": "mocha -R spec tests/* --recursive",
 		"test:watch": "mocha -R min tests/* --recursive -watch",
@@ -26,7 +26,7 @@
 		"helper",
 		"vanilla"
 	],
-	"author": "Marcus Blättermann <kontakt@essenmitsosse.de> (http://essenmitsosse.de)",
+	"author": "Marcus Blättermann <kontakt@essenmitsosse.de> (https://essenmitsosse.de)",
 	"license": "MIT",
 	"devDependencies": {
 		"chai": "^4.1.2",
